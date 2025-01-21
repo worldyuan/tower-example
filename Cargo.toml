@@ -1,0 +1,9 @@
+[package]
+name = "tower-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tower = {version = "*", features = ["full"]}
+tokio = {version = "*", features = ["full"]}
+anyhow = "1"
